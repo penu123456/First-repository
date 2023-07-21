@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suitesiva">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="javascript_executor.borderheighlighting"/>
+      <class name="javascript_executor.pageup_pagedown"/>
+      <class name="javascript_executor.popupdisplay"/>
+      <class name="javascript_executor.scroll_operation"/>
+      <class name="javascript_executor.send_click"/>
+      <class name="javascript_executor.title"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
